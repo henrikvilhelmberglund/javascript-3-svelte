@@ -34,3 +34,30 @@ om man vill ha **updating** kan man lägga till något i [], t.ex [count], så k
 
 glöm inte bort [], annars blir det infinite loop
 
+## Vite
+
+snabbare än npx create-react-app (både installation och uppdatering av kod)
+
+`npm create vite@latest`
+
+sen välja React, JavaScript
+
+`npm run dev`
+
+## CSS modules
+
+Counter, Header i egna mappar
+
+Counter.module.css
+
+Header.module.css
+
+App.css är global, blir CSS för alla komponenter
+
+istället kan vi använda CSS modules, sedan importera i komponent, sedan t.ex `className={styles.heading1}`
+
+vanligt med `s`, `className={s.heading1}`
+
+sedan får elementen unika klasser baserade på namnen i CSSmodulerna så att de inte krockar
+
+alternativ till t.ex styles.heading1: styles["heading-2"]
