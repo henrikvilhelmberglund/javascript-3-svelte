@@ -6,6 +6,7 @@
 	let currency = "SEK";
 	let infoText = "";
 	let loaded = false;
+
 	onMount(() => {
 		console.log("Booting up ATM...ATM is ready!");
 		loaded = true;
@@ -17,6 +18,7 @@
 	$: {
 		console.log(`Current amount: ${amount}`);
 	}
+  
 	$: {
 		console.log(`Chosen currency: ${currency}`);
 	}
