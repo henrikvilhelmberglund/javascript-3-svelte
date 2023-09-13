@@ -7,3 +7,6 @@ Actions: type+payload
 Actions skickas in i store
 
 Kommer in i en reducer (funktion som tar in nuvarande state och action, returnerar ett nytt state)
+
+Slice: ett/flera states som hör tillsammans
+
